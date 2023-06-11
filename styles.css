@@ -8,6 +8,7 @@
     font-family: 'Oswald', sans-serif;
 }
 
+/* Set default row to have all sections of the webpage with this format */
 .row{
     width: 100%;
     max-width: 1200px;
@@ -15,23 +16,43 @@
     
 }
 
+.blue{
+    color: blue;
+}
+
+h1{
+    font-size: 48px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
 
 
 /* CSS FOR NAVIGATION BAR */
 
 #nav__bar{
+    /* Set the colour of the section */
     background-color: rgb(220, 239, 255);
 }
 
 .img__logo{
+    /* Adjusting the size of the logo */
     width: 150px;
     
 }
 
 .nav{
+    /* Put the image and links side by side which are under the same parent */
     display: flex;
+    /* Vertically aligns the items to the center of the nav */
     align-items: center;
+    /* Horizontally adds space between the links and image */
     justify-content: space-between;
+    /* Add padding around the nav for the image and links
+    8 top/bottom and 32 left/right */
     padding: 8px 32px;
    
 }
@@ -78,3 +99,38 @@
 
 /* CSS FOR LANDING PAGE */
 
+#landing{
+    display: flex;
+    flex-direction: column;
+}
+
+.landing_content{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.landing_content--left{
+    width: 40%;
+    float: left;
+    padding-left: 12px;
+
+}
+
+.landing_content--right{
+    width: 60%;
+    float: right;
+    
+}
+
+.img__landing{
+    width: 100%;
+}
+
+.landing__title{
+    margin-bottom: 24px;
+}
+
+.landing__para{
+    text-align: center;
+}
