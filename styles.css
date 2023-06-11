@@ -20,26 +20,61 @@
 /* CSS FOR NAVIGATION BAR */
 
 #nav__bar{
-    background-color: lightblue;
+    background-color: rgb(220, 239, 255);
 }
 
 .img__logo{
     width: 150px;
-    padding: 8px;
+    
 }
 
 .nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    padding: 8px 32px;
    
 }
 
-
-.nav_link{
-    text-decoration: dashed;
+.nav_link,
+.nav_link--login{
+    text-decoration: none;
     color: black;
     font-weight: bold;
+   
     
 }
+
+.nav_link{
+    margin-right: 48px;
+}
+
+.nav_link:hover,
+.nav_link--login:hover{
+    color: blue;
+    text-decoration: underline;
+    transition: all 600ms ease;
+}
+
+
+.nav_link--login{
+    padding-right: 12px;
+}
+
+.nav_link--signup{
+    background-color: blue;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.nav_link--signup:hover{
+    background-color: darkblue;
+    color: white;
+    transition: all 500ms ease;
+
+}
+
+/* CSS FOR LANDING PAGE */
+
