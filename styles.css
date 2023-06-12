@@ -103,6 +103,7 @@ p{
 
     display: flex;
     flex-direction: column;
+    padding-top: 72px;
 }
 
 .landing_content{
@@ -126,6 +127,7 @@ p{
 
 .img__landing{
     width: 100%;
+    
 }
 
 .landing__title{
@@ -154,16 +156,20 @@ p{
 
 .emailsubmit{
     margin-top: 24px;
+    animation: animate-landingtitle 800ms ease;
 }
 
+
 .btn{
-    width: 100%;
-    border-radius: 20px;
+    width: 100%; 
+    margin-bottom: 24px;
 }
+
 
 .landinginput{
     width: 100%;
     border-radius: 20px;
     padding: 12px 0;
+    text-align: center;
    
 }
