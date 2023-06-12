@@ -104,6 +104,7 @@ p{
     display: flex;
     flex-direction: column;
     padding-top: 72px;
+    
 }
 
 .landing_content{
@@ -132,15 +133,15 @@ p{
 
 .landing__title{
     margin-bottom: 24px;
-    animation: animate-landingtitle 800ms ease;
+    animation: animate-landing 800ms ease;
 }
 
 .landing__para{
     text-align: center;
-    animation: animate-landingtitle 800ms ease;
+    animation: animate-landing 800ms ease;
 }
 
-@keyframes animate-landingtitle{
+@keyframes animate-landing{
     0%{
         transform: scale(0);
     }
@@ -171,5 +172,25 @@ p{
     border-radius: 20px;
     padding: 12px 0;
     text-align: center;
-   
+}
+
+.lighttext{
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 8px;
+    
+}
+
+.customer_img{
+    width: 125px;
+    background-image: none;
+    padding: 0 12px;
+    animation: animate-landing 800ms ease;
+}
+
+.customer_img-wrapper{
+    display: flex;
+    justify-content: center;
+    
 }
