@@ -37,6 +37,15 @@ img{
     width: 100%;
 }
 
+.btn{
+    /* width: 100%;  */
+    padding: 12px 24px;
+    margin-bottom: 24px;
+    border-radius: 16px;
+    background-color: blue;
+    color: white;
+}
+
 
 
 /* CSS FOR NAVIGATION BAR */
@@ -166,12 +175,9 @@ img{
 .emailsubmit{
     margin-top: 24px;
     animation: animate-landingtitle 800ms ease;
-}
-
-
-.btn{
-    width: 100%; 
-    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -179,6 +185,7 @@ img{
     width: 100%;
     border-radius: 20px;
     padding: 12px 0;
+    margin-bottom: 12px;
     text-align: center;
 }
 
@@ -267,7 +274,12 @@ img{
 
 .qualitywork__title{
     text-align: left;
+    padding: 12px 0;
     
+}
+
+.qualitywork__para{
+    margin-bottom: 12px;
 }
 
 .img__qw{
