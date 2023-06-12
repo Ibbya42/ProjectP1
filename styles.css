@@ -29,6 +29,10 @@ p{
     font-size: 20px;
 }
 
+img{
+    width: 100%;
+}
+
 
 
 /* CSS FOR NAVIGATION BAR */
@@ -183,7 +187,8 @@ p{
 }
 
 .customer_img{
-    width: 125px;
+    width: 130px;
+    height: 50px;
     background-image: none;
     padding: 0 12px;
     animation: animate-landing 800ms ease;
