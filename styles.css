@@ -17,7 +17,7 @@
 }
 
 .container{
-    padding: 80px 0 ;
+    padding: 80px 0px ;
 }
 
 .blue{
@@ -122,12 +122,6 @@ img{
     flex-direction: column;
     padding-top: 72px;
     
-}
-
-.landing_content{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
 .landing_content--left{
@@ -286,12 +280,50 @@ img{
     width: 100%;
 }
 
+#quality__work{
+    display: flex;
+    flex-direction: column;
+}
+
 /* CSS FOR GET STARTED PAGE */
 
-.getstarted__left{
-    width: 50%;
+#steps{
+    display: flex;
+    flex-direction: column;
 }
 
-.getstarted_img{
+.steps__left{
+    width: 50%;
+    float: left;
+}
+
+.steps__img{
     width: 100%;
 }
+
+.steps__img--wrapper{
+    margin: 0px 12px;
+}
+
+.steps__right{
+    width: 50%;
+    float: right;
+    
+}
+
+.step_num{
+    padding: 8px 12px;
+}
+
+.steplist{
+    display: flex;
+    
+}
+
+.step_desc{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 12px;
+    
+}
+
