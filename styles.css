@@ -273,7 +273,7 @@ img{
 }
 
 .qualitywork__para{
-    margin-bottom: 12px;
+    margin-bottom: 32px;
 }
 
 .img__qw{
@@ -327,3 +327,28 @@ img{
     
 }
 
+/* CSS FOR GET STARTED PAGE */
+
+#prices{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Subtitle__prices{
+    color: blue;
+    font-size: 16px;
+    text-align: center;
+}
+
+.prices__title{
+    padding: 12px 0;
+   
+}
+
+.prices__para{
+    max-width: 480px;
+    text-align: center;
+    margin: 0 auto;
+
+}
