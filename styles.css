@@ -285,3 +285,13 @@ img{
 .img__qw{
     width: 100%;
 }
+
+/* CSS FOR GET STARTED PAGE */
+
+.getstarted__left{
+    width: 50%;
+}
+
+.getstarted_img{
+    width: 100%;
+}
