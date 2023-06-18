@@ -339,6 +339,7 @@ img{
 #prices{
     display: flex;
     flex-direction: column;
+    
 }
 
 
@@ -364,7 +365,7 @@ img{
 .plans{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 24px;
+    margin-right: 24px;
 }
 
 .plan{
