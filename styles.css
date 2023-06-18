@@ -53,6 +53,7 @@ img{
 #nav__bar{
     /* Set the colour of the section */
     background-color: rgb(220, 239, 255);
+    width: 100vw;
 }
 
 .img__logo{
@@ -209,6 +210,7 @@ img{
 
 #features{
     background-color: rgb(220, 239, 255);
+    animation: fading-in 1000ms ease ;
 }
 
 .Subtitle__feature{
@@ -250,6 +252,19 @@ img{
     flex-direction: column;
     max-width: 250px;
     padding: 16px 0;
+}
+
+@keyframes fading-in{
+
+    0%{
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 
@@ -364,18 +379,25 @@ img{
 
 .plans{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-right: 24px;
+    
 }
 
 .plan{
     width: calc(100%/3);
+    max-width: 350px;
     display: flex;
     flex-direction: column;
     text-align: center;
     border: 2px solid black;
     border-radius: 16px;
-    padding: 32px;
+    margin-right: 12px;
+    padding-bottom: 60px;
+   
+
+   
 }
 
 .price{
