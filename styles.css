@@ -207,6 +207,10 @@ img{
 
 /* CSS FOR FEATURES PAGE */
 
+#features{
+    background-color: rgb(220, 239, 255);
+}
+
 .Subtitle__feature{
     text-align: center;
     color: blue;
@@ -226,7 +230,8 @@ img{
 }
 
 .features__img{
-    width: 100px;
+    width: 100px;    
+    
 }
 
 .services{
@@ -237,6 +242,7 @@ img{
 .service{
     display: flex;
     width: calc(100%/3);
+    
 }
 
 .service_desc{
@@ -290,6 +296,7 @@ img{
 #steps{
     display: flex;
     flex-direction: column;
+    background-color: rgb(220, 239, 255);
 }
 
 .steps__left{
