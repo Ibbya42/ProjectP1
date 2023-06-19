@@ -50,6 +50,10 @@ HTML{
     scroll-behavior: smooth;
 }
 
+main{
+    width: 100vw;
+}
+
 
 
 /* CSS FOR NAVIGATION BAR */
@@ -411,16 +415,32 @@ HTML{
     color: white;
 }
 
-.plan__personal--btn,
-.plan__enterprise--btn{
-    background-color:  rgb(220, 239, 255);
-    margin: 0px 24px;
-    border-radius: 8px;
+.plan__business{
+    background-color:  rgb(68, 158, 231);
+    color: white;
 }
 
+.plan__personal--btn,
+.plan__enterprise--btn,
+.plan__business--btn
+{
+    background-color: rgb(42, 30, 171); 
+    margin: 0px 48px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+}
+
+.plan__business--btn{
+    background-color:  rgb(68, 158, 231);
+}
+
+
 .plan__personal--btn:hover,
-.plan__enterprise--btn:hover{
-    background-color: blue;
+.plan__enterprise--btn:hover,
+.plan__business--btn:hover{
+    background-color: black;
     color: white;
     transition: all 500ms ease;
     
