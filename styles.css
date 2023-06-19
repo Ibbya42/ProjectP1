@@ -46,6 +46,10 @@ img{
     color: white;
 }
 
+HTML{
+    scroll-behavior: smooth;
+}
+
 
 
 /* CSS FOR NAVIGATION BAR */
@@ -385,7 +389,10 @@ img{
     
 }
 
-.plan{
+.plan__personal,
+.plan__business,
+.plan__enterprise
+{
     width: calc(100%/3);
     max-width: 350px;
     display: flex;
@@ -396,8 +403,33 @@ img{
     margin-right: 12px;
     padding-bottom: 60px;
    
+}
 
-   
+.plan__personal,
+.plan__enterprise{
+    background-color: rgb(42, 30, 171);
+    color: white;
+}
+
+.plan__personal--btn,
+.plan__enterprise--btn{
+    background-color:  rgb(220, 239, 255);
+    margin: 0px 24px;
+    border-radius: 8px;
+}
+
+.plan__personal--btn:hover,
+.plan__enterprise--btn:hover{
+    background-color: blue;
+    color: white;
+    transition: all 500ms ease;
+}
+
+.plan__personal:hover,
+.plan__enterprise:hover,
+.plan__business:hover{
+    transform: scale(1.05);
+    transition: all 500ms ease;
 }
 
 .price{
