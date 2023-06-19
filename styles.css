@@ -353,7 +353,7 @@ HTML{
     
 }
 
-/* CSS FOR GET STARTED PAGE */
+/* CSS FOR PRICES PAGE */
 
 #prices{
     display: flex;
@@ -423,6 +423,7 @@ HTML{
     background-color: blue;
     color: white;
     transition: all 500ms ease;
+    
 }
 
 .plan__personal:hover,
@@ -430,6 +431,7 @@ HTML{
 .plan__business:hover{
     transform: scale(1.05);
     transition: all 500ms ease;
+    border: 4px solid blue;
 }
 
 .price{
