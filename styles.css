@@ -128,7 +128,7 @@ main{
 
     display: flex;
     flex-direction: column;
-    padding-top: 72px;
+    padding: 72px 0px;
     
 }
 
