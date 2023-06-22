@@ -538,12 +538,39 @@ i{
 
     .landing_content--right{
         width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img__landing{
+        width: 500px;
     }
 
     .service{
         display: flex;
         width: calc(100%/2);
         
+    }
+
+    .qualitywork__left{
+        width: 100%;
+        
+    }
+
+    .qualitywork__title,
+    .qualitywork__left{
+        text-align: center;
+        padding: 8px 24px;
+    }
+
+    .qualitywork__right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img_qualitywork{
+        width: 500px;
     }
     
     
