@@ -55,7 +55,6 @@ main{
 }
 
 
-
 /* CSS FOR NAVIGATION BAR */
 
 #nav__bar{
@@ -496,8 +495,56 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: white;
 }
 
-.footer_icon-wrapper{
+.footer__editlink{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 4px;
+}
+
+.footer__editlink:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.header_footer{
+    font-size: 16px;
+    font-family: bold 700;
+}
+
+i{
     padding-right: 12px;
+}
+
+@media (max-width: 768px){
+    
+    .nav_link{
+        display: none;
+    }
+
+    .landing_content--left{
+        width: 100%;
+        padding: 0px 48px;
+    }
+
+    .customer_img-wrapper,
+    .emailsubmit,
+    .lighttext{
+        display: none;
+    }
+
+    .landing_content--right{
+        width: 100%;
+    }
+
+    .service{
+        display: flex;
+        width: calc(100%/2);
+        
+    }
+    
+    
 }
