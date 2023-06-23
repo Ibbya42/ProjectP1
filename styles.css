@@ -572,6 +572,13 @@ i{
     .img_qualitywork{
         width: 500px;
     }
-    
+
+    .plans{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around
+
+    }
+
     
 }
