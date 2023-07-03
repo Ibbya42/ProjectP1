@@ -519,7 +519,7 @@ i{
     padding-right: 12px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 870px){
     
     .nav_link{
         display: none;
@@ -573,16 +573,10 @@ i{
         width: 500px;
     }
 
-    .plans{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around
-
-    }
-
     .steps__left{
-        display: none;
+       display: none;
     }
+
 
     .steps__right{
         width: 100%;
@@ -594,6 +588,45 @@ i{
         text-align: center;
     }
 
-  
+    .step_num{
+        display: none;
+    }
+
+    .plans{
+        display: flex;
+       
+    }
+    .plan__personal,
+    .plan__business,
+    .plan__enterprise
+    {
     
+        max-width: 250px;
+       
+    }
+    
+}
+
+@media (max-width: 500px)
+{
+    #nav__bar{
+        width: 100%;
+    }
+
+    .landing__title{
+        font-size: 36px;
+    }
+
+    .img__landing{
+        width: 250px;
+    }
+
+    .service{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: calc(100%/1);
+        
+    }
 }
