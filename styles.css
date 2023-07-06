@@ -617,7 +617,25 @@ i{
         width: 100px;
     }
 
-    
+    .nav_link--login,
+    .nav_link--signup{
+        font-size: 10px;
+    }
+
+    .features_heading,
+    .qualitywork__title{
+        font-size: 24px;
+    }
+
+    .para_wrapper
+    {
+        padding: 0 12px;
+    }
+
+    .features__para,
+    .qualitywork__para{
+        font-size: 16px;
+    }
 
     .landing__title{
         font-size: 36px;
