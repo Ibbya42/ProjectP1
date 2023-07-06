@@ -623,7 +623,8 @@ i{
     }
 
     .features_heading,
-    .qualitywork__title{
+    .qualitywork__title,
+    .prices__title{
         font-size: 24px;
     }
 
@@ -635,6 +636,18 @@ i{
     .features__para,
     .qualitywork__para{
         font-size: 16px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    .prices__para{
+        padding: 0 12px;
     }
 
     .landing__title{
@@ -652,5 +665,19 @@ i{
         justify-content: center;
         width: calc(100%/1);
         
+    }
+
+    .plans{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 12px;
+        width:100%;
+    }
+
+    .plan__personal, 
+    .plan__business, 
+    .plan__enterprise{
+        width:100%;
+        margin: 20px 0px;
     }
 }
