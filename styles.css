@@ -613,6 +613,12 @@ i{
         width: 100%;
     }
 
+    .img__logo{
+        width: 100px;
+    }
+
+    
+
     .landing__title{
         font-size: 36px;
     }
