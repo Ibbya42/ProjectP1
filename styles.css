@@ -153,31 +153,31 @@ main{
 
 .landing__title{
     margin-bottom: 24px;
-    animation: animate-landing 800ms ease;
+    animation: fading-in 1000ms ease ;
 }
 
 .landing__para{
     text-align: center;
-    animation: animate-landing 800ms ease;
+    animation: fading-in 1000ms ease ;
 }
 
-@keyframes animate-landing{
-    0%{
-        transform: scale(0);
-    }
+@keyframes fading-in{
 
-    50%{
-        transform: scale(1.3);
+    0%{
+        opacity: 0;
+        transform: translateX(-40px);
     }
 
     100%{
-        transform: scale(1);
+        opacity: 1;
+        transform: translateX(0);
     }
 }
 
+
 .emailsubmit{
     margin-top: 24px;
-    animation: animate-landingtitle 800ms ease;
+    animation: fading-in 1000ms ease ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,6 +190,7 @@ main{
     padding: 12px 0;
     margin-bottom: 12px;
     text-align: center;
+    animation: fading-in 1000ms ease ;
 }
 
 .lighttext{
@@ -205,7 +206,7 @@ main{
     height: 50px;
     background-image: none;
     padding: 0 12px;
-    animation: animate-landing 800ms ease;
+    animation: fading-in 1000ms ease ;
 }
 
 .customer_img-wrapper{
@@ -260,19 +261,6 @@ main{
     flex-direction: column;
     max-width: 250px;
     padding: 16px 0;
-}
-
-@keyframes fading-in{
-
-    0%{
-        opacity: 0;
-        transform: translateX(-40px);
-    }
-
-    100%{
-        opacity: 1;
-        transform: translateX(0);
-    }
 }
 
 
