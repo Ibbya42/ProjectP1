@@ -55,6 +55,7 @@ main{
 }
 
 
+
 /* CSS FOR NAVIGATION BAR */
 
 #nav__bar{
@@ -610,6 +611,10 @@ i{
         margin: 20px 0px;
        
     }
+
+    .container__padding{
+        height: 75vh;
+    }
     
 }
 
@@ -706,6 +711,10 @@ i{
         display: flex;
         flex-direction: column;
        
+    }
+
+    .container__padding{
+        height: 90vh;
     }
 
 
